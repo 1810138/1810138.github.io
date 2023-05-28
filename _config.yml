@@ -63,7 +63,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 475819c94e1c6815d7b4                            #生成的clientID
   clientSecret: 43e80100cc260d6f64a246585fc3d196ec93ac59    #生成的clientSecret
-  repo: blogComments    #仓库名称
+  repo: blogComments    #仓库名称 新建的仓库 拿来装评论的
   owner: 1810138    #github用户名
   admin: 1810138
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
