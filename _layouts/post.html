@@ -98,7 +98,9 @@ layout: default
                     repo: '{{site.gitalk.repo}}',
                     owner: '{{site.gitalk.owner}}',
                     admin: ['{{site.gitalk.admin}}'],
-                    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+                    //这是原版本的
+                    // distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+                    distractionFreeMode: false,
                     id: md5(location.pathname),
                     });
                     gitalk.render('gitalk-container');
